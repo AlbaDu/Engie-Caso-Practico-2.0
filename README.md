@@ -13,4 +13,4 @@ Dentro del mismo se pueden encontrar los siguientes archivos:
 
 ## Historial 
 
-31 de Mayo de 2024 - Creación del repositorio y commit inicial.
+5 de Junio de 2024 - Creación del repositorio.
