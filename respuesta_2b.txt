@@ -1,0 +1,81 @@
+(TVB, Almacenamiento TVB)
+
+---> FACTURAS DE AGIKEY <---
+	NumeroFactura	Importe		FechaFactura
+0	2024164592		1375.12		4/3/24
+1	2024164591		1787.43		4/3/24
+2	2024164590		1930.23		4/3/24
+3	2024164589		1472.13		4/3/24
+4	2024164588		1965.66		4/3/24
+5	2024164587		1041.67		4/3/24
+6	2024164586		1030.97		4/3/24
+7	2024164585		1017.59		4/3/24
+8	2024164584		1015.95		4/3/24
+9	2024164583		718.6		4/3/24
+10	2024164582		59080.41	4/3/24
+	
+---> DEALS TRS <---
+	Deal		Cantidad	StartDeliveryDate			EndDeliveryDate				Procedencia TRS
+0	42563586	0.0			2024-05-01T00:00:00+02:00	2024-05-01T00:00:00+02:00	JVLNG_CTV_STOK
+1	42518127	0.0			2024-06-04T00:00:00+02:00	2024-06-04T00:00:00+02:00	JVLNG_CTV_STOK
+2	42518126	0.0			2024-06-01T00:00:00+02:00	2024-06-01T00:00:00+02:00	JVLNG_CTV_STOK
+3	42518125	0.0			2024-05-01T00:00:00+02:00	2024-05-01T00:00:00+02:00	JVLNG_CTV_STOK
+4	42518124	0.0			2024-04-28T00:00:00+02:00	2024-04-28T00:00:00+02:00	JVLNG_CTV_STOK
+5	42518092	0.0			2024-07-31T00:00:00+02:00	2024-07-31T00:00:00+02:00	JVLNG_CTV_STOK
+6	42518091	0.0			2024-07-25T00:00:00+02:00	2024-07-25T00:00:00+02:00	JVLNG_CTV_STOK
+7	42518090	0.0			2024-04-30T00:00:00+02:00	2024-04-30T00:00:00+02:00	JVLNG_CTV_STOK
+8	42518089	0.0			2024-04-28T00:00:00+02:00	2024-04-28T00:00:00+02:00	JVLNG_CTV_STOK
+9	42517580	0.0			2024-05-01T00:00:00+02:00	2024-05-01T00:00:00+02:00	JVLNG_CTV_STOK
+10	42499606	0.0			2024-05-01T00:00:00+02:00	2024-05-31T00:00:00+02:00	JVLNG_CTV_STOK
+11	42491259	0.0			2024-05-01T00:00:00+02:00	2024-05-01T00:00:00+02:00	JVLNG_CTV_STOK
+12	42464106	0.0			2024-06-01T00:00:00+02:00	2024-06-01T00:00:00+02:00	JVLNG_CTV_STOK
+13	42449534	0.0			2024-06-01T00:00:00+02:00	2024-06-01T00:00:00+02:00	JVLNG_CTV_STOK
+14	42439259	0.0			2024-05-01T00:00:00+02:00	2024-05-01T00:00:00+02:00	JVLNG_CTV_STOK
+15	42439258	0.0			2024-06-01T00:00:00+02:00	2024-06-01T00:00:00+02:00	JVLNG_CTV_STOK
+16	42294515	0.0			2024-08-01T00:00:00+02:00	2024-08-01T00:00:00+02:00	JVLNG_CTV_STOK
+17	42294514	0.0			2024-07-01T00:00:00+02:00	2024-07-01T00:00:00+02:00	JVLNG_CTV_STOK
+18	42294493	0.0			2024-09-01T00:00:00+02:00	2024-09-01T00:00:00+02:00	JVLNG_CTV_STOK
+19	42238975	0.0			2024-04-01T00:00:00+02:00	2024-04-30T00:00:00+02:00	JVLNG_CTV_STOK
+20	42238679	0.0			2024-04-01T00:00:00+02:00	2024-04-30T00:00:00+02:00	JVLNG_CTV_STOK
+21	42238678	0.0			2024-06-01T00:00:00+02:00	2024-06-30T00:00:00+02:00	JVLNG_CTV_STOK
+22	42238677	0.0			2024-05-01T00:00:00+02:00	2024-05-31T00:00:00+02:00	JVLNG_CTV_STOK
+23	42238676	0.0			2024-04-01T00:00:00+02:00	2024-06-30T00:00:00+02:00	JVLNG_CTV_STOK
+24	41985669	0.0			2024-03-15T00:00:00+01:00	2024-03-15T00:00:00+01:00	JVLNG_CTV_STOK
+26	39942100	0.0			2024-01-01T00:00:00+01:00	2024-12-31T00:00:00+01:00	JVLNG_CTV_STOK
+
+	Deal 42563586: sin flows asociados para el mes de estudio
+	Deal 42518127: sin flows asociados para el mes de estudio
+	Deal 42518126: sin flows asociados para el mes de estudio
+	Deal 42518125: sin flows asociados para el mes de estudio
+	Deal 42518124: sin flows asociados para el mes de estudio
+	Deal 42518092: sin flows asociados para el mes de estudio
+	Deal 42518091: sin flows asociados para el mes de estudio
+	Deal 42518090: sin flows asociados para el mes de estudio
+	Deal 42518089: sin flows asociados para el mes de estudio
+	Deal 42517580: sin flows asociados para el mes de estudio
+	Deal 42499606: sin flows asociados para el mes de estudio
+	Deal 42491259: sin flows asociados para el mes de estudio
+	Deal 42464106: sin flows asociados para el mes de estudio
+	Deal 42449534: sin flows asociados para el mes de estudio
+	Deal 42439259: sin flows asociados para el mes de estudio
+	Deal 42439258: sin flows asociados para el mes de estudio
+	Deal 42294515: sin flows asociados para el mes de estudio
+	Deal 42294514: sin flows asociados para el mes de estudio
+	Deal 42294493: sin flows asociados para el mes de estudio
+	Deal 42238975: sin flows asociados para el mes de estudio
+	Deal 42238679: sin flows asociados para el mes de estudio
+	Deal 42238678: sin flows asociados para el mes de estudio
+	Deal 42238677: sin flows asociados para el mes de estudio
+	Deal 42238676: sin flows asociados para el mes de estudio
+	Deal 41985669: sin flows asociados para el mes de estudio
+	Deal 39942100: 
+	SubFlow_Id      Date  							Subcantidad
+	100950845  		2024-02-20T00:00:00+01:00       0.0
+	100950846  		2024-02-20T00:00:00+01:00       0.0
+	
+	
+ ------------MATCHEO-------------
+TotalQuantityAGIKEY: 72435.76000000001 --> Facturación Total
+TotalQuantityTRS: 0.0 --> Importe Conciliado
+TotalQuantityAGIKEY - TotalQuantityTRS: 72435.76000000001 --> Importe No Conciliado
+	

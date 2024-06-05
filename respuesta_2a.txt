@@ -1,0 +1,62 @@
+(C.I. Almería, Entrada PVB)
+
+---> FACTURAS DE AGIKEY <---
+	NumeroFactura	Importe		FechaFactura
+	2324004231		503763.47	6/3/24
+	
+---> DEALS TRS <---
+	Deal	    Cantidad	    StartDeliveryDate	        EndDeliveryDate	            Procedencia TRS
+	37591650	503763.467648	2024-01-01T00:00:00+01:00	2024-12-31T00:00:00+01:00	MEDG2_IAC_GETRA
+	
+	SubFlow_Id                       Date    Subcantidad
+    93540227  2024-03-20T00:00:00+01:00  120318.957648
+    93540226  2024-03-20T00:00:00+01:00  383444.510000
+	
+-----------MATCHEO-------------
+TotalQuantityAGIKEY: 503763.47 --> Facturación Total
+TotalQuantityTRS: 503763.467648 --> Importe Conciliado
+TotalQuantityAGIKEY - TotalQuantityTRS: 0.002351999981328845 --> Importe No Conciliado
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+¿DE DONDE VIENE CADA INFORMACIÓN 	
+	
+
+(Origen[FacturasAGIKEY],ServicioFacturado[FacturasAGIKEY])
+
+
+---> FACTURAS DE AGIKEY <---
+    Factura: NumeroFactura[FacturasAGIKEY], Importe: Importe[FacturasAGIKEY], Fecha Emisión Factura = FechaFactura[FacturasAGIKEY]
+
+
+
+---> DEALS TRS <---
+    Deal: Id[MEDG2_IAC_GETRA] o LegID[MEDG2_IAC_GETRA], Cantidad: 503763.467648, StartDeliveryDate: SettlementPremium{1'Period']}[MEDG2_IAC_GETRA], EndDeliveryDate: 2024-12-31 00:00:00, Procedencia TRS: [nombre fichero excel]
+        Subflow: , Date: 2024-02-29 00:00:00, Subcantidad: 120318.957648
+        Subflow: 93540226, Date: 2024-02-29 00:00:00, Subcantidad: 383444.51
+
+
+
+ -----------MATCHEO-------------
+    TotalQuantityAGIKEY: Importe[FacturasAGIKEY]
+    TotalQuantityTRS: 503763.467648
+    TotalQuantityAGIKEY - TotalQuantityTRS: resultado(Importe[FacturasAGIKEY] - TotalQuantityTRS)
